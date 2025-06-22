@@ -1,4 +1,4 @@
-<h1 align="center">E-Commerce Store 🛒</h1>
+<h1 align="center"> SparkXkart</h1> E-Commerce Store 🛒
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
