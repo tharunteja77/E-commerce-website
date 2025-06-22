@@ -1,11 +1,53 @@
 <h1 align="center"> SparkZkart ( E-Commerce Store 🛒)</h1>
 
 
+## Overview
+An elegant, full-featured **E-Commerce Store** built with the MERN Stack (MongoDB, Express, React, Node.js).  
+SparkZkart supports user authentication, product management, cart functionality, coupon system, and online payments.
 
+## Features
+- 🛒 User Authentication (Register/Login)
+- 📦 Product Listings with Ratings
+- 🧺 Cart Management
+- 💳 Stripe Payment Integration
+- 🎟️ Coupon Discounts
+- 📈 Admin Dashboard & Analytics
+- ☁️ Cloudinary Image Uploads
 
+## Tech Stack
+- Frontend: React, Tailwind CSS, Zustand, Vite
+- Backend: Node.js, Express.js, MongoDB Atlas, Mongoose
+- Auth: JWT, Cookies
+- Payments: Stripe
+- Image Uploads: Cloudinary
+- State Management: Zustand
+- Dev Tools: Nodemon, ESLint
+- Caching: Redis
 
+## Installation
+### Prerequisites
+- MongoDB Atlas
+- Redis Upstash
+- Cloudinary
+- Stripe
 
-### Setup .env file
+### Steps
+1. Clone the repositories:
+```bash
+git clone https://github.com/tharunteja77/E-commerce-website
+```
+2. Open VS code / similar IDE and Navigate to the project directory:
+```bash
+cd ghost-share
+```
+3. Install Dependencies
+```bash
+npm install
+npm install --prefix frontend
+```
+- 1st one installs backend dependencies.
+- 2nd one installs frontend dependencies.
+4. Setup .env file
 
 ```bash
 PORT=5000
@@ -25,14 +67,14 @@ CLIENT_URL=http://localhost:5173
 NODE_ENV=development
 ```
 
-### Run this app locally
+5. Run this app locally
 
-```shell
+```bash
 npm run build
 ```
 
-### Start the app
+6. Start the app
 
-```shell
+```bash
 npm run dev
 ```
