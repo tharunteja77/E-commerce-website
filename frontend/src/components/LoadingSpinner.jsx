@@ -1,4 +1,4 @@
-import {Mosaic} from 'react-loading-indicators'
+import { Mosaic } from "react-loading-indicators";
 const LoadingSpinner = () => {
 	return (
 		<div className='flex items-center justify-center min-h-screen bg-gray-900'>
