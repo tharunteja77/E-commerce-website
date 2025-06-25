@@ -92,8 +92,8 @@ npm run build
 npm run dev
 ```
 ## 🌐 Live Demo
-The application is live on Render. Click below to explore it:     [![Render](https://img.shields.io/badge/Deployed%20on-Render-5D459D?logo=render&logoColor=white)](https://your-frontend-service.onrender.com)
+The application is live on Render. Click below to explore it:     [![Render](https://img.shields.io/badge/Deployed%20on-Render-5D459D?logo=render&logoColor=white)](https://e-commerce-website-frontend-0zlm.onrender.com)
 
- ==> 🔗 **[Click here to visit the site](https://your-frontend-service.onrender.com)**
+ ==> 🔗 **[Click here to visit the site](https://e-commerce-website-frontend-0zlm.onrender.com)**
 
 
