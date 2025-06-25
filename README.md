@@ -27,9 +27,11 @@ SparkZkart supports user authentication, product management, cart functionality,
 ## Installation
 ### Prerequisites
 - MongoDB Atlas
-- Redis Upstash
-- Cloudinary
-- Stripe
+- NodeJS
+- Redis Upstash Creds
+- Cloudinary Creds
+- Stripe Creds
+
 
 ### Steps
 1. Clone the repositories:
@@ -38,7 +40,7 @@ git clone https://github.com/tharunteja77/E-commerce-website
 ```
 2. Open VS code / similar IDE and Navigate to the project directory:
 ```bash
-cd ghost-share
+cd E-commerce-website
 ```
 3. Install Dependencies
 ```bash
@@ -47,7 +49,7 @@ npm install --prefix frontend
 ```
 - 1st one installs backend dependencies.
 - 2nd one installs frontend dependencies.
-4. Setup .env file
+4. Setup .env file for backend
 
 ```bash
 PORT=5000
@@ -63,10 +65,21 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
 STRIPE_SECRET_KEY=your_stripe_secret_key
+STRIPE_PUBLISHABLE_KEY=your_stripe_secret_key
+
 CLIENT_URL=http://localhost:5173
 NODE_ENV=development
 ```
 
+5. Setup .env file for frontend
+
+```bash
+VITE_PRODUCTION_BASE_URL=/api
+```
+6. To host this website we just have to change
+ - CLIENT_URL=https://your-frontend.your-host.com
+ - VITE_PRODUCTION_BASE_URL=https://your-backend.your-host.com
+ - Host backend and frontend in a hosting website then change the URL's above with the URL's provided by those hosting websites
 5. Run this app locally
 
 ```bash
