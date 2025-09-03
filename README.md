@@ -16,7 +16,8 @@ SparkZkart supports user authentication, product management, cart functionality,
 
 ## Tech Stack
 - Frontend: React, Tailwind CSS, Zustand, Vite
-- Backend: Node.js, Express.js, MongoDB Atlas, Mongoose
+- Backend: Node.js, Express.js,
+- Database:  MongoDB Atlas, Mongoose
 - Auth: JWT, Cookies
 - Payments: Stripe
 - Image Uploads: Cloudinary
