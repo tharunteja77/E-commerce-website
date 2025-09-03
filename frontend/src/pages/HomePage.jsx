@@ -5,19 +5,19 @@ import FeaturedProducts from "../components/FeaturedProducts";
 import HeroCarousel from "../components/HeroCarousel";
 
 const categories = [
-	{ href: "/jeans", name: "Jeans", imageUrl: "/category/jeans.jpg" },
-	{ href: "/t-shirts", name: "T-shirts", imageUrl: "/category/tshirts.webp" },
-	{ href: "/shoes", name: "Shoes", imageUrl: "/category/shoes.jpg" },
-	{ href: "/glasses", name: "Glasses", imageUrl: "/category/glasses.jpg" },
-	{ href: "/jackets", name: "Jackets", imageUrl: "/category/jackets.jpg" },
-	{ href: "/suits", name: "Suits", imageUrl: "/category/suits.jpg" },
-	{ href: "/bags", name: "Bags", imageUrl: "/category/bags.jpg" },
-	{ href: "/laptops", name: "Laptops", imageUrl: "/category/laptops.jpg" },
-	{ href: "/watches", name: "Watches", imageUrl: "/category/watches.jpg" },
-	{ href: "/gaming", name: "Gaming", imageUrl: "/category/gaming.jpg" },
-	{ href: "/keyboards & accessories", name: "Keyboard and Accesories", imageUrl: "/category/keyboards.jpg" },
-	{ href: "/headphones & earpods", name: "Headphones & Earpods", imageUrl: "/category/headphones.jpeg" },
-	{ href: "/camera & accessories", name: "Camera & Accessories", imageUrl: "/category/cameras.jpeg" },
+	{ href: "/jeans", name: "Jeans", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923090/jeans_c7odhw.jpg" },
+	{ href: "/t-shirts", name: "T-shirts", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756922584/tshirts_g2whdr.webp" },
+	{ href: "/shoes", name: "Shoes", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923101/shoes_xzhxxr.jpg" },
+	{ href: "/glasses", name: "Glasses", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923088/glasses_hv7zfq.jpg" },
+	{ href: "/jackets", name: "Jackets", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923095/jackets_nyoil3.webp" },
+	{ href: "/suits", name: "Suits", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923093/suits_xoesma.jpg" },
+	{ href: "/bags", name: "Bags", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923089/bags_uniysp.jpg" },
+	{ href: "/laptops", name: "Laptops", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923094/laptops_uyy6qr.jpg" },
+	{ href: "/watches", name: "Watches", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923089/watches_ssyrhf.jpg" },
+	{ href: "/gaming", name: "Gaming", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923104/gaming_yp9tfm.jpg" },
+	{ href: "/keyboards & accessories", name: "Keyboard and Accesories", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923090/keyboards_wh3zbz.jpg" },
+	{ href: "/headphones & earpods", name: "Headphones & Earpods", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923093/headphones_pc66ph.jpg" },
+	{ href: "/camera & accessories", name: "Camera & Accessories", imageUrl: "https://res.cloudinary.com/dpt0bztac/image/upload/v1756923089/cameras_qrknut.jpg" },
 ];
 
 const HomePage = () => {
