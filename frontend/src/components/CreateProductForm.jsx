@@ -209,7 +209,7 @@ const CreateProductForm = () => {
                 			<div className="flex flex-col items-center"> 
                                 <p className="text-sm text-gray-500">Click to upload image</p>
                 				<img
-                					src="/upload_logo.png"
+                					src="https://res.cloudinary.com/dpt0bztac/image/upload/v1756927789/upload_logo_c7hl2p.png"
                 					alt="Upload"
                 					className="h-[120px] mb-2 opacity-70"
                 				/>

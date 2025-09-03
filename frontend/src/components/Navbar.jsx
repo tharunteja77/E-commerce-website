@@ -29,7 +29,7 @@ const Navbar = () => {
             {/* Logo */}
             <Link to='/' className='flex items-center space-x-2'>
               <img
-                src='/SparkZkart-logo.png'
+                src='https://res.cloudinary.com/dpt0bztac/image/upload/v1756927789/SparkZkart-logo_rzwcf3.png'
                 alt='SparkZkart Logo'
                 className='h-16 w-auto pl-2 sm:pl-10'
               />
