@@ -1,21 +1,22 @@
 import { Navigate, Route, Routes } from "react-router-dom";
+import { Suspense, lazy } from "react";
 
-import HomePage from "./pages/HomePage";
-import SignUpPage from "./pages/SignUpPage";
-import LoginPage from "./pages/LoginPage";
-import AdminPage from "./pages/AdminPage";
-import CategoryPage from "./pages/CategoryPage";
+const HomePage = lazy(() => import("./pages/HomePage"));
+const SignUpPage = lazy(() => import("./pages/SignUpPage"));
+const LoginPage = lazy(() => import("./pages/LoginPage"));
+const AdminPage = lazy(() => import("./pages/AdminPage"));
+const CategoryPage = lazy(() => import("./pages/CategoryPage"));
+const CartPage = lazy(() => import("./pages/CartPage"));
+const PurchaseSuccessPage = lazy(() => import("./pages/PurchaseSuccessPage"));
+const PurchaseCancelPage = lazy(() => import("./pages/PurchaseCancelPage"));
+const ProductDetailPage = lazy(() => import("./pages/ProductDetailPage"));
 
 import Navbar from "./components/Navbar";
 import { Toaster } from "react-hot-toast";
 import { useUserStore } from "./stores/useUserStore";
 import { useEffect } from "react";
 import LoadingSpinner from "./components/LoadingSpinner";
-import CartPage from "./pages/CartPage";
 import { useCartStore } from "./stores/useCartStore";
-import PurchaseSuccessPage from "./pages/PurchaseSuccessPage";
-import PurchaseCancelPage from "./pages/PurchaseCancelPage";
-import ProductDetailPage from "./pages/ProductDetailPage";
 import Footer from "./components/Footer";
 
 
@@ -45,6 +46,7 @@ function App() {
 
 			<div className='relative z-50 pt-20'>
 				<Navbar />
+				<Suspense fallback={<LoadingSpinner />}>
 				<Routes>
 					<Route path='/' element={<HomePage />} />
 					<Route path='/signup' element={!user ? <SignUpPage /> : <Navigate to='/' />} />
@@ -64,6 +66,7 @@ function App() {
 					<Route path='/product/:id' element={<ProductDetailPage />} />
 
 				</Routes>
+				</Suspense>
 				<Footer />
 			</div>
 			<Toaster />
